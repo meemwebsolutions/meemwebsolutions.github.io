@@ -220,7 +220,7 @@
             }
           },
           "title": "MEEM Workflow Automation System&nbsp;",
-          "text": "Workflow is a set of tasks &nbsp;arranged in a predefined pattern &nbsp;to carry out a specific procedure. Typically in all oganizations, this &nbsp;is carried out &nbsp;using paper memos &nbsp;with signatures or emails. <br><br>Our product, MEEM workflow automation system, automates such process &nbsp;in minimal time to make a paper-less environment &nbsp;using web-based electronic resources.&nbsp;<br><br>Following are some examples of workflows which has been successfully sutomated using MEEM Workflow automation system.&nbsp;",
+          "text": "Workflow is a set of tasks &nbsp;arranged in a predefined pattern &nbsp;to carry out a specific procedure. Typically in all oganizations, this &nbsp;is carried out &nbsp;using paper memos &nbsp;with signatures or emails. <br><br>Our product, MEEM workflow automation system, automates such process &nbsp;in minimal time to make a paper-less environment &nbsp;using web-based electronic resources.&nbsp;<br><br>Following are some examples of workflows which has been successfully automated using MEEM Workflow automation system.&nbsp;",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         },
         {
@@ -280,7 +280,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/promotion-600x406.jpg",
+              "src": "@PROJECT_PATH@/assets/images/promotion-600x340.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -344,7 +344,7 @@
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media5": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/projectqualitymanagement-600x600.jpg",
+              "src": "@PROJECT_PATH@/assets/images/1-ooouzbj3388wwivnkz-roa-600x435.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -354,7 +354,7 @@
               "linkInNewWindow": false
             }
           },
-          "title5": "Projects Quality Management System&nbsp;",
+          "title5": "Projects Management System&nbsp;",
           "subtitle5": "A customizeable web-based automation for managing project quality",
           "caption5": "The projects quality need to managed while the project is running. This automation provides timely reports to the center director, reporting of any problem like equipment missing, closing of project etc. .",
           "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
