@@ -182,7 +182,7 @@
           "_anchor": "msg-box5-7",
           "_params": {
             "imageSize": "70",
-            "paddingTop": "5",
+            "paddingTop": "2",
             "paddingBottom": "3",
             "parallax": true,
             "bgImageRadio": true,
@@ -196,7 +196,7 @@
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#fff",
-            "inverse": false,
+            "inverse": true,
             "showTitle": true,
             "showText": true,
             "showButtons": false
@@ -219,8 +219,8 @@
               "size": 0
             }
           },
-          "title": "MEEM Workflow Automation System&nbsp;",
-          "text": "Workflow is a set of tasks &nbsp;arranged in a predefined pattern &nbsp;to carry out a specific procedure. Typically in all oganizations, this &nbsp;is carried out &nbsp;using paper memos &nbsp;with signatures or emails. <br><br>Our product, MEEM workflow automation system, automates such process &nbsp;in minimal time to make a paper-less environment &nbsp;using web-based electronic resources.&nbsp;<br><br>Following are some examples of workflows which has been successfully automated using MEEM Workflow automation system.&nbsp;",
+          "title": "MEEM Workflow Automation&nbsp;",
+          "text": "<b>What is Workflow?</b><br>Workflow is a set of tasks &nbsp;arranged in a predefined pattern &nbsp;to carry out a specific procedure. Workflow are present in nearly all organizations.&nbsp;<br><b>What is the Problem?</b><br>Ususally the process is carried out &nbsp;using paper memos &nbsp;with signatures or emails. This is time consuming, inefficient in handling, incapable of producing high level reports etc &nbsp;<br><b>Solution</b><br>Our product, MEEM workflow automation system, automates such process &nbsp;in minimal time to make a paper-less environment &nbsp;using web-based electronic resources.&nbsp;<br><br>Following are some examples of workflows which has been successfully automated using MEEM Workflow automation system.&nbsp;",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         },
         {
@@ -261,15 +261,15 @@
             "paddingBottom": "2",
             "bgImageRadio": false,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-4-2000x1333.jpg",
-            "bgColor": "#efefef",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1456.jpg",
+            "bgColor": "#c1c1c1",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
+            "overlay": true,
+            "overlayOpacity": "0",
             "overlayColor": "#222",
             "columns": "5",
             "showImages": true,
@@ -291,7 +291,7 @@
             }
           },
           "title1": "Promotion System",
-          "subtitle1": "A cusomizable web-based automation for faculty or staff Promotion process",
+          "subtitle1": "A customizable web-based automation for faculty or staff Promotion process",
           "caption1": "It is a workflow system for promoting faculty candidates to a higher rank in a university. The system allows uploading of documents, maintaining research points sheets, selection of external reviewers, to and fro movement of promotion application among different departments, tracking of application with automatic email reminders etc. The system is easy to integrate and customizable online",
           "button1": " <a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media2": {
@@ -323,7 +323,7 @@
             }
           },
           "title3": "Inventory System&nbsp;",
-          "subtitle3": "A customizeable web-based automation of Store items for managing items in any store",
+          "subtitle3": "A customizable &nbsp;web-based automation of Store items for managing items in any store",
           "caption3": "Process of Issuing, returning, discarding, and adding new items &nbsp;in a store is automated.High-level summarized reports are made for the Higher authorities to help make decisions&nbsp;",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media4": {
@@ -338,8 +338,8 @@
               "linkInNewWindow": false
             }
           },
-          "title4": "Budget Adminitration System&nbsp;",
-          "subtitle4": "A customizeable web-based automation for administrering Budgets of Projects Grants. &nbsp;",
+          "title4": "Budget Administration System&nbsp;",
+          "subtitle4": "A customizable &nbsp;web-based automation for administering Budgets of Projects Grants. &nbsp;",
           "caption4": "The projects grants from an external sources in an organization needs to be organized and managed. This web-based automation allow Prinicipal Investigators of mutlitple projects secure  logins to manage budget heads and allocate funds for running the project. The system autmatically &nbsp;provides monthly, yearly and final financial reports to be submitted to the external source.&nbsp;",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media5": {
@@ -355,7 +355,7 @@
             }
           },
           "title5": "Projects Management System&nbsp;",
-          "subtitle5": "A customizeable web-based automation for managing project quality",
+          "subtitle5": "A customizable &nbsp;web-based automation for managing project quality",
           "caption5": "The projects quality need to managed while the project is running. This automation provides timely reports to the center director, reporting of any problem like equipment missing, closing of project etc. .",
           "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media6": {
