@@ -161,7 +161,7 @@
             "showText": true,
             "showButtons": false
           },
-          "title": "بسم الله الرحمن الرحيم<br>MEEM Web-based Solutions<br>",
+          "title": "بسم الله الرحمن الرحيم<br>MEEM Web Solutions<br>",
           "text": "A showcase of webabsed solutions for automating paper-based workflows in any organization.&nbsp;We provide customized ready-to-use products for office automation.<br><br><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CLICK TO EDIT</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CLICK TO EDIT</a>"
         },
@@ -205,7 +205,11 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@THEME_PATH@/components/_images/gallery/desktop.jpg"
+              "src": "@PROJECT_PATH@/assets/images/hires-1400x1320.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             },
             "video": {
               "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
@@ -220,7 +224,7 @@
             }
           },
           "title": "MEEM Workflow Automation&nbsp;",
-          "text": "<b>What is Workflow?</b><br>Workflow is a set of tasks &nbsp;arranged in a predefined pattern &nbsp;to carry out a specific procedure. Workflow are present in nearly all organizations.&nbsp;<br><b>What is the Problem?</b><br>Ususally the process is carried out &nbsp;using paper memos &nbsp;with signatures or emails. This is time consuming, inefficient in handling, incapable of producing high level reports etc &nbsp;<br><b>Solution</b><br>Our product, MEEM workflow automation system, automates such process &nbsp;in minimal time to make a paper-less environment &nbsp;using web-based electronic resources.&nbsp;<br><br>Following are some examples of workflows which has been successfully automated using MEEM Workflow automation system.&nbsp;",
+          "text": "<b>What is Workflow?</b><br>Workflow is a set of tasks &nbsp;arranged in a predefined pattern &nbsp;to carry out a specific procedure. Workflow are present in nearly all organizations.&nbsp;<br><b>What is the Problem?</b><br>Ususally the workflow process is carried out &nbsp;using paper memos &nbsp;with signatures or emails. This is time consuming, inefficient in handling, incapable of producing high level reports etc &nbsp;<br><b>Solution</b><br>Our product, MEEM workflow automation, automates such process &nbsp;in minimal time to make a paper-less environment &nbsp;using web-based electronic resources.&nbsp;<br><br>Issues related with Accuracy, Data Managment, Security, Tracking are efficiently handled. <br>&nbsp;<br>Following are some examples of workflows which has been successfully automated using MEEM Workflow automation.&nbsp;",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         },
         {
@@ -243,7 +247,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2019 MEEM web-based Solutions."
+          "text": "Copyright (c) 2019 MEEM Web Solutions."
         },
         {
           "_tags": [
