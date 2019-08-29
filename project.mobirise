@@ -275,7 +275,7 @@
             "overlay": true,
             "overlayOpacity": "0",
             "overlayColor": "#222",
-            "columns": "5",
+            "columns": "6",
             "showImages": true,
             "showTitles": true,
             "showSubtitles": true,
@@ -364,15 +364,19 @@
           "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media6": {
             "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "src": "@PROJECT_PATH@/assets/images/online-admission-software-600x450.png",
               "class": "card-img-top",
               "width": 600,
-              "active": true
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             }
           },
-          "title6": "Host Anywhere",
-          "subtitle6": "Don't limit yourself to just one platform",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "title6": "School Admission Management System",
+          "subtitle6": "Automating the complete school admission process",
+          "caption6": "The system automates the workflow of admission process in school. Online Approvals and rejection, Tracking of application, Reminders notification for expediting process are salient features of this system,",
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
         },
         {
