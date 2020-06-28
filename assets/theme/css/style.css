@@ -1270,7 +1270,8 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   margin-bottom: 0;
   font-style: italic;
   font-weight: 400;
-  font-size: 0.875rem;
+  /*font-size: 0.875rem;*/
+  font-size: 1.125rem;
   font-family: "Lora";
   color: #5b5b5b;
   margin-top: -1rem;
@@ -1715,7 +1716,8 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     padding: 0; }
   .mbr-company .card-text {
     color: #acacac;
-    font-size: 0.875rem;
+    /*font-size: 0.875rem;*/
+    font-size: 1.125rem;
     margin-bottom: 1.57rem; }
   .mbr-company .list-group {
     display: block; }
