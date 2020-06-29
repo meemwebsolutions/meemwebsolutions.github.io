@@ -52,7 +52,7 @@
     },
     "uniqCompNum": 29,
     "versionPublish": "4.12.4",
-    "google-analytics": "MEEM Web Solutions\nWorkflow Automation Framework",
+    "google-analytics": "MEEM Web Solutions\nWorkflow Automation Framework\nmeemwebsolutions.github.io",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "cookiesAlert": false
   },
