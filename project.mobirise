@@ -75,7 +75,8 @@
         "meta_descr": "Optimizing Business Process Automation",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/logo2-37x55.png"
       },
       "components": [
         {
