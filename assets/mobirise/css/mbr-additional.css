@@ -1917,3 +1917,10 @@ section.lazy-placeholder:after {
 .cid-s3hNIzCA5r .dropdown-item:hover {
   color: #767676 !important;
 }
+.cid-s3nao6n3Ge {
+  background: linear-gradient(45deg, #55b4d4, #073b4c);
+}
+.cid-s3nao6n3Ge .mbr-text,
+.cid-s3nao6n3Ge .mbr-section-btn {
+  text-align: left;
+}
