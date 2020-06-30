@@ -898,7 +898,7 @@ section.lazy-placeholder:after {
 .cid-s3dp6bJSyZ {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/mbr-1920x1153.jpg");
+  background-color: #ffffff;
 }
 .cid-s3dp6bJSyZ h2 {
   text-align: left;
@@ -975,7 +975,7 @@ section.lazy-placeholder:after {
   margin-bottom: 0;
 }
 .cid-s3dqA6zomt .card-wrapper {
-  border-top: 1px solid #e4d295;
+  border-top: 1px solid #efefef;
   background-color: #ffffff;
   position: relative;
   justify-content: unset;
