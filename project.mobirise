@@ -48,9 +48,9 @@
     "favicon": false,
     "imageResize": true,
     "robotsSwitcher": true,
-    "sitemapSwitcher": false,
+    "sitemapSwitcher": true,
     "sitemapSwitcherAuto": "on",
-    "siteUrl": false,
+    "siteUrl": "https://meemwebsoluions.com",
     "gdpr": {
       "colorText": "#a7a7a7",
       "colorLink": "#149dcc",
