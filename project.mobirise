@@ -79,7 +79,7 @@
       "settings": {
         "main": true,
         "title": "MEEM Web Solutions",
-        "meta_descr": "Optimizing Business Process Automation",
+        "meta_descr": "Optimizing Business Process Automation.  MEEM Web Solutions provides Workflow Automation Framework that facilitates business users to develop workflow automation or manage out of box workflow automations.   Workflow Automation Framework also incorporates organization’s complete business data. ",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
@@ -1151,7 +1151,7 @@
     },
     "privacy.html": {
       "settings": {
-        "meta_descr": "Privacy Statement",
+        "meta_descr": "Privacy Statement of MEEM Web Solutions",
         "title": "Privacy",
         "order": 1
       },
