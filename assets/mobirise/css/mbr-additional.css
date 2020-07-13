@@ -1009,6 +1009,33 @@ section.lazy-placeholder:after {
 .cid-s3hZFuyuXz P {
   color: #767676;
 }
+.cid-s4whRRHynZ {
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  background-color: #ffffff;
+}
+.cid-s4whRRHynZ p {
+  color: #767676;
+}
+.cid-s4whRRHynZ .item:focus,
+.cid-s4whRRHynZ span:focus {
+  outline: none;
+}
+.cid-s4whRRHynZ .item {
+  padding-bottom: 3rem;
+  cursor: pointer;
+}
+.cid-s4whRRHynZ .item-wrapper {
+  position: relative;
+}
+.cid-s4whRRHynZ .item-btn,
+.cid-s4whRRHynZ h4,
+.cid-s4whRRHynZ h5 {
+  margin: 0;
+}
+.cid-s4whRRHynZ .item-content {
+  padding-top: 2rem;
+}
 .cid-s3hNIzCA5r .navbar {
   background: #ffffff;
   transition: none;
