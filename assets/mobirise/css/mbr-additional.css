@@ -1517,6 +1517,9 @@ section.lazy-placeholder:after {
 .cid-s62dwQMpby .item-content {
   padding-top: 2rem;
 }
+.cid-s62dwQMpby item-text {
+  text-align: center;
+}
 .cid-s3h8xRhgil {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -1602,6 +1605,9 @@ section.lazy-placeholder:after {
 }
 .cid-s62dumG9L3 .item-content {
   padding-top: 2rem;
+}
+.cid-s62dumG9L3 item-text {
+  text-align: center;
 }
 .cid-s3nao6n3Ge {
   background: linear-gradient(45deg, #55b4d4, #073b4c);
