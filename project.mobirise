@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "MEEM Web Solutions",
-    "currentPage": "index.html",
+    "currentPage": "privacy.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -59,7 +59,7 @@
     },
     "uniqCompNum": 41,
     "versionPublish": "4.12.4",
-    "google-analytics": "MEEM Web Solutions\nWorkflow Automation Framework\nBusiness Process Management (BPM)\nmeemwebsolutions.com",
+    "google-analytics": "MEEM Web Solutions\nBusiness Process Management (BPM)",
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n\n",
     "cookiesAlert": {
       "customDialogSelector": false,
