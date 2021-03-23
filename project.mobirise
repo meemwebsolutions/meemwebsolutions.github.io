@@ -80,7 +80,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "COGENT PROC",
+        "title": "Cogent Proc",
         "meta_descr": "Optimizing Business Process Automation.  Cogent Proc provides Workflow Automation Framework that facilitates business users to develop workflow automation or manage out of box workflow automations.   Workflow Automation Framework also incorporates organization’s complete business data. ",
         "header_custom": "",
         "footer_custom": "",
