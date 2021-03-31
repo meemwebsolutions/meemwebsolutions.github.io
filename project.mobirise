@@ -6,29 +6,30 @@
       "name": "mobirise4",
       "title": "Mobirise 4",
       "styling": {
-        "primaryColor": "#149dcc",
+        "primaryColor": "#81d1ec",
         "secondaryColor": "#ff3366",
         "successColor": "#F7ED4A",
         "infoColor": "#82786E",
         "warningColor": "#879A9F",
         "dangerColor": "#B1A374",
         "mainFont": "Rubik",
-        "display1Font": "Rubik",
+        "display1Font": "Raleway",
         "display1Size": 4.25,
-        "display2Font": "Rubik",
+        "display2Font": "Raleway",
         "display2Size": 3,
-        "display5Font": "Rubik",
+        "display5Font": "Raleway",
         "display5Size": 1.5,
-        "display7Font": "Rubik",
+        "display7Font": "Raleway",
         "display7Size": 1,
-        "display4Font": "Rubik",
+        "display4Font": "Raleway",
         "display4Size": 1,
         "isRoundedButtons": true,
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": true
       },
       "additionalSetColors": [
-        "#424a4d"
+        "#424a4d",
+        "#81d1ec"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -43,6 +44,11 @@
         "css": "'Petit Formal Script', handwriting",
         "name": "Petit Formal Script",
         "url": "https://fonts.googleapis.com/css?family=Petit+Formal+Script:400"
+      },
+      {
+        "css": "'Raleway', sans-serif",
+        "name": "Raleway",
+        "url": "https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
     "favicon": false,
@@ -1315,9 +1321,10 @@
     },
     "privacy.html": {
       "settings": {
-        "meta_descr": "Privacy Statement of MEEM Web Solutions",
+        "meta_descr": "Privacy Statement of CogentProc",
         "title": "Privacy",
-        "order": 1
+        "order": 1,
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-1920x1393.jpg"
       },
       "components": [
         {
