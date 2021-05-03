@@ -5,6 +5,7 @@ info:
   description: CogentProc Backend User API Documentation
 servers:
   - url: 'http://18.219.24.71/v1/'
+  - url: 'http://localhost:8185/v1/'
     
 paths:
   /networks/{network_name}:
@@ -76,7 +77,7 @@ paths:
                 
       responses:
         '200':
-          description: Success Workflow instance created.
+          description: Success Application created.
           content:
             application/json:
               schema:
@@ -162,8 +163,466 @@ paths:
               schema:
                 $ref: '#/components/schemas/ApplicationDetail'
   
+  /application-details/{application_id}:
+    description: 'Save Application Detail form'
+    post:
+      parameters:
+        - in: path
+          name: application_id
+          required: true
+          schema:
+            type: integer
+          example: 14
+      requestBody:
+        description: Save field data in the form
+        required: true
+        content:
+          application/json:
+            schema:
+             $ref: '#/components/schemas/ApplicationDetailFormRequest'
+      responses:
+        '200':
+          description: Application Detail form saved.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApplicationCreateResponse'
+
+  /application-detail-actions/{application_id}/{task_id}/{action_id}:
+    description: 'Action on Application'
+    post:
+      parameters:
+        - in: path
+          name: application_id
+          required: true
+          schema:
+            type: integer
+          example: 14
+        - in: path
+          name: task_id
+          required: true
+          schema:
+            type: integer
+          example: 18
+        - in: path
+          name: action_id
+          required: true
+          schema:
+            type: integer
+          example: 44          
+      requestBody:
+        description: Save field data in the form
+        required: true
+        content:
+          application/json:
+            schema:
+             type: object
+             properties:
+              action_messages:
+                type: array
+                items:
+                  $ref: '#/components/schemas/ActionMessageRequestValue'
+                  
+      responses:
+        '200':
+          description: Application Detail form saved.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApplicationCreateResponse'        
+
+  /application-messages/{application_id}/{task_id}:
+    description: 'Application messages'
+    get:
+      parameters:
+        - in: path
+          name: application_id
+          required: true
+          schema:
+            type: integer
+          example: 10
+        - in: path
+          name: task_id
+          required: true
+          schema:
+            type: integer
+          example: 18
+      responses:
+        '200':
+          description: Application Message.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApplicationMessage'  
+                
+  /application-roles/{application_id}/{role_id}:
+    description: 'Application Roles'
+    get:
+      parameters:
+        - in: path
+          name: application_id
+          required: true
+          schema:
+            type: integer
+          example: 15
+        - in: path
+          name: role_id
+          required: true
+          schema:
+            type: integer
+          example: 18
+      responses:
+        '200':
+          description: Application Roles.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApplicationRole'  
+
+  /application-status/{application_id}/{role_id}:
+    description: 'Application Status'
+    get:
+      parameters:
+        - in: path
+          name: application_id
+          required: true
+          schema:
+            type: integer
+          example: 15
+        - in: path
+          name: role_id
+          required: true
+          schema:
+            type: integer
+          example: 18
+      responses:
+        '200':
+          description: Application Status.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApplicationStatus' 
+                
+
+  /application-track/{application_id}:
+    description: 'Application Track'
+    get:
+      parameters:
+        - in: path
+          name: application_id
+          required: true
+          schema:
+            type: integer
+          example: 15
+      responses:
+        '200':
+          description: Application Track.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApplicationTrack' 
+                
+
+  /roles/{role_id}:
+    description: 'Get Role'
+    get:
+      parameters:
+        - in: path
+          name: role_id
+          required: true
+          schema:
+            type: integer
+          example: 18
+      responses:
+        '200':
+          description: Role.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Role' 
+                
+  
 components:
   schemas:
+    Role:
+      type: object
+      properties:
+        data:
+          type: object
+          properties:
+            id: 
+              type: integer
+            network_id: 
+              type: integer
+            workflow_id: 
+              type: integer
+            committee_name_id: 
+              type: integer
+            child_role_id: 
+              type: integer
+            department_id: 
+              type: integer
+            generic: 
+              type: boolean
+            title: 
+              type: string              
+            alias: 
+              type: string
+            deputy_user_id1: 
+              type: integer
+            deputy_user_id2: 
+              type: integer
+        result:
+          type: string  
+  
+    ApplicationTrack:
+      type: object
+      properties:
+        data:
+          type: array
+          items:
+            type: object
+            properties:
+              id: 
+                type: integer
+              network_id: 
+                type: integer
+              workflow_id: 
+                type: integer
+              application_id: 
+                type: integer
+              action_id: 
+                type: integer
+              role_title: 
+                type: string
+              role_alias: 
+                type: string              
+              task_title: 
+                type: string
+              task_alias: 
+                type: string
+              action_title: 
+                type: string
+              action_time: 
+                type: string
+              message: 
+                type: string
+              comments: 
+                type: string
+              details: 
+                type: string
+              actor: 
+                type: string
+              update_date:  
+                type: string
+              insert_date:  
+                type: string              
+        result:
+          type: string
+          
+    ApplicationStatus:
+      type: object
+      properties:
+        data:
+          type: array
+          items:
+            type: object
+            properties:
+              id: 
+                type: integer
+              network_id: 
+                type: integer
+              workflow_id: 
+                type: integer
+              application_id: 
+                type: integer
+              app_title: 
+                type: string
+              task_id: 
+                type: integer
+              task_title: 
+                type: string
+              task_alias: 
+                type: string
+              role_id: 
+                type: integer
+              role_title: 
+                type: string
+              role_alias: 
+                type: string              
+              user_email: 
+                type: string
+              user_name: 
+                type: string
+              user_dept_name: 
+                type: string
+              user_rank: 
+                type: string
+              action_id: 
+                type: integer
+              sentdate: 
+                type: string
+              completed: 
+                type: boolean
+              message: 
+                type: string
+              sms_message: 
+                type: string
+              reminders: 
+                type: integer              
+              update_date:  
+                type: string
+              insert_date:  
+                type: string              
+        result:
+          type: string
+          
+    ApplicationRole:
+      type: object
+      properties:
+        data:
+          type: array
+          items:
+            type: object
+            properties:
+              id: 
+                type: integer
+              network_id: 
+                type: integer
+              workflow_id: 
+                type: integer
+              application_id: 
+                type: integer
+              role_id: 
+                type: integer
+              role_title: 
+                type: string
+              role_alias: 
+                type: string
+              user_id: 
+                type: integer
+              user_name: 
+                type: string
+              user_rank: 
+                type: string
+              user_dept: 
+                type: string
+              is_acting: 
+                type: string
+              update_date:  
+                type: string
+              insert_date:  
+                type: string              
+        result:
+          type: string
+          
+    ApplicationMessage:
+      type: object
+      properties:
+        data:
+          type: array
+          items:
+            type: object
+            properties:
+              id: 
+                type: integer
+              network_id: 
+                type: integer
+              workflow_id: 
+                type: integer
+              application_id: 
+                type: integer
+              app_title: 
+                type: string
+              task_id: 
+                type: integer
+              task_title: 
+                type: string
+              task_alias: 
+                type: string
+              role_id: 
+                type: integer
+              role_title: 
+                type: string
+              role_alias: 
+                type: string
+              user_email: 
+                type: string
+              user_name: 
+                type: string
+              user_dept_name: 
+                type: string
+              user_rank: 
+                type: string
+              action_id: 
+                type: integer
+              sentdate: 
+                type: string
+              completed: 
+                type: boolean
+              message: 
+                type: string
+              sms_message: 
+                type: string
+              reminders: 
+                type: integer
+              update_date:  
+                type: string
+              insert_date:  
+                type: string              
+        result:
+          type: string
+  
+    ActionMessageRequestValue:
+      properties:
+        cc_email: 
+          type: string
+        email: 
+          type: string          
+        id: 
+          type: integer          
+        message: 
+          type: string          
+        next_task_id: 
+          type: integer          
+        next_task_name: 
+          type: string          
+        sms: 
+          type: string          
+        sms_message: 
+          type: string          
+        user_id: 
+          type: integer          
+        whats_app: 
+          type: string     
+          
+ 
+    ApplicationDetailFormRequest:
+      type: object
+      properties:
+        form_id: 
+          type: integer
+          example: 23
+        task_id: 
+          type: integer
+          example: 18
+        fields: 
+          type: array
+          items:
+            $ref: '#/components/schemas/FieldIDValue'
+
+    FieldIDValue:
+      type: object
+      properties:
+        id: 
+          type: integer
+        value: 
+          type: array
+          items:
+            type: string
+            example: "user entered data"
+             
+
     ApplicationDetail:
       type: object
       properties:
