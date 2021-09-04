@@ -57,12 +57,6 @@
     "sitemapSwitcher": true,
     "sitemapSwitcherAuto": false,
     "siteUrl": "https://cogentproc.com",
-    "gdpr": {
-      "colorText": "#a7a7a7",
-      "colorLink": "#149dcc",
-      "underlineLink": false,
-      "text": "By continuing you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>."
-    },
     "uniqCompNum": 51,
     "versionPublish": "5.4.1",
     "google-analytics": "CogentProc\nBusiness Process Management (BPM)\n",
@@ -81,7 +75,8 @@
     },
     "screenshot": "screenshot.png",
     "publishChangesOnly": true,
-    "mbrsiteDomain": "818t2kwofk"
+    "mbrsiteDomain": "rizf1jky2l",
+    "gdpr": false
   },
   "pages": {
     "index.html": {
