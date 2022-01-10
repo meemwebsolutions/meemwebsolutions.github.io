@@ -80,10 +80,7 @@
       "textButton": "Agree"
     },
     "screenshot": "screenshot.png",
-    "publishChangesOnly": true,
-    "publishType": "github",
-    "gitHubName": "cogentproc",
-    "gitHubPath": "cogentproc"
+    "publishChangesOnly": true
   },
   "pages": {
     "index.html": {
