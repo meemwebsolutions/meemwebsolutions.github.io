@@ -81,6 +81,12 @@
     },
     "screenshot": "screenshot.png",
     "publishChangesOnly": true,
+<<<<<<< Updated upstream
+=======
+    "publishType": "github",
+    "gitHubName": "cogentproc",
+    "gitHubPath": "",
+>>>>>>> Stashed changes
     "mbrsiteDomain": "iy9mdrtumx"
   },
   "pages": {
