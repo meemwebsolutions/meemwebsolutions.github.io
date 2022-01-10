@@ -65,7 +65,7 @@
     },
     "uniqCompNum": 99,
     "versionPublish": "5.4.1",
-    "google-analytics": "CogentProc\nBusiness Process Management (BPM)\n",
+    "google-analytics": "CogentProc\nBusiness Process Management (BPM)\nAPI as a Service\nStaffing Solutions\nConsulting\nAutomation\n\n",
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n\n",
     "cookiesAlert": {
       "customDialogSelector": false,
@@ -80,14 +80,15 @@
       "textButton": "Agree"
     },
     "screenshot": "screenshot.png",
-    "publishChangesOnly": true
+    "publishChangesOnly": true,
+    "mbrsiteDomain": "iy9mdrtumx"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
-        "meta_descr": "Optimizing Business Process Automation.  CogentProc provides Workflow Automation Framework that facilitates business users to develop workflow automation or manage out of box workflow automations.   Workflow Automation Framework also incorporates organization’s complete business data. ",
+        "title": "CogentProc LLC | Dayton OH | United States",
+        "meta_descr": "Optimizing Business Process Automation, Consulting Services, Staffing Solutions in Dayton Ohio, United States",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
